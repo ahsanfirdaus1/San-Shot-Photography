@@ -1,0 +1,619 @@
+/* Import google font Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+/* Khusus Browser Laptop / PC */
+@media only screen and (min-width: 700px){
+    
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #002066;
+    }
+    
+    h1:hover {
+        color: #E70D20;
+    }
+    
+    .bagianAtas {
+        background-image: linear-gradient(to bottom, #002066, #182125);
+        min-width: 24px;
+    }
+    .dropdownButton {
+        color: #002066;
+        background-color: #F5F5F5 ;
+        font-size: 40px;
+        padding: 20px;
+        border-radius: 15px;
+        font-family: 'Poppins', sans-serif;
+    
+    
+    }
+    
+    .dropdown{
+        position: relative;
+        display: inline-block;
+        font-size: 48px;
+    }
+    
+    .dropdownContent {
+        display: none;
+        position: absolute;
+        background-color: #E70D20;
+        text-align: center;
+    
+    }
+    .dropdownContent a {
+        color: white;
+        padding: 10px 15px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdownContent a:hover {
+        color: #002066 ;
+    }
+    .dropdown:hover .dropdownContent{
+        display: block;
+    }
+    
+    .title{
+        text-align: center;
+        color: #F5F5F5;
+        font-family: 'Poppins', sans-serif;
+        font-size: 80px;
+        text-shadow: 3px 3px #E70D20;
+    }
+    nav{
+        text-align: center;
+        padding: 25px;
+        margin: 0px auto;
+        font-size: 40px;
+    }
+    
+    .aboutMenu{
+        display: inline;
+        margin-right: 72px;
+        font-family: 'Poppins', sans-serif;
+        text-decoration: none;
+        color: #F5F5F5;
+    }
+    
+    /*  Content Homepage */
+    .content {
+        background-color: #182125;
+        padding: 80px;
+        
+    }
+    
+    .contentHomePage {
+        display: flex;
+        flex-direction: row;
+        color: #F5F5F5;
+        font-size: 60px;
+        margin: 10px auto;
+    }
+    .imageContent {
+        flex-grow: 2;
+        margin-right: 150px;
+    }
+    .captionHomePage {
+        flex-grow: 1;
+        padding-left: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    .captionHomePage p:hover{
+        color: #E70D20;
+    }
+    
+    
+    .contentHomePage img {
+        flex-grow: 2;
+    }
+    
+    .whyButton {
+        padding: 20px;
+        font-size: 22px;
+        color: #F5F5F5;
+        background-color: #182125;
+        border-radius: 25px;
+        margin: 0px auto;
+        border: 5px solid #F5F5F5;
+    
+    }
+    
+    .whyButton:hover {
+        border: 5px solid #E70D20;
+        color: #E70D20;
+        zoom: 125%;
+    
+    }
+    
+    img {
+        border-radius: 25px;
+    }
+    img:hover {
+        border-radius: 25px;
+        border: 3px solid #F5F5F5;
+        zoom: 110%;
+    
+    }
+    
+    .diecast {
+        padding: 150px;
+        background-color: #182125;
+        color: #F5F5F5;
+    }
+    
+    .diecastTitle {
+        text-align: center;
+        font-size: 60px;
+    }
+    
+    .fotoDiecast {
+        display: flex;
+        flex-direction: row;
+    }
+    .fotoDiecast img {
+        flex-grow: 1;
+        margin-right: 30px;
+        
+    }
+    
+    .landscape img:hover {
+        border-radius: 25px;
+        border: 3px solid #182125;
+    }
+    .landscape {
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+    }
+    
+    .landscapeTitle {
+        flex-grow: 1;
+        color: #F5F5F5;
+        text-align: center;
+        font-size: 60px;
+    }
+    
+    .fotoLandscape {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        margin: 0px auto;
+    }
+    
+    .fotoAtasLandscape img {
+        flex-grow: 2;
+        margin-bottom: 50px;
+        width: 796px;
+    }
+    
+    .fotoBawahLandscape {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: row;
+    }
+    .fotoBawahLandscape .satu{
+        margin-right: 100px;
+    }
+    
+    /*  footer */
+    .macro {
+        background-color: #182125;
+        color: #F5F5F5;
+        padding: 50px;
+    }
+    
+    .macroTitle {
+        text-align: center;
+        font-size: 60px;
+    }
+    .fotoMacro {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .kolom1 {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+        margin-left: 370px;
+    }
+    
+    .barisMacro1 {
+        flex-grow: 1;
+    }
+    .kolom2 {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+        margin-left: 500px;
+    }
+    .barisMacro2{
+        flex-grow: 1;
+    }
+    
+    .barisMacro3 {
+        flex-grow: 1;
+    }
+    .kolom3 {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+        margin-right: 370px;
+    }
+    
+    
+    
+    /* aside */
+    .about {
+        padding: 50px;
+        color: #F5F5F5;
+        text-align: center;
+        font-size: 60px;
+    }
+    .aboutContent {
+        display: flex;
+        flex-direction: row;
+        padding: 100px;
+        
+    }
+    
+    .myPic img {
+        flex-grow: 1;
+        height: 400px;
+    }
+    .extra {
+        flex-grow: 2;
+        padding-left: 50px;
+        font-size: 48px;
+        margin-right: 200px;
+        line-height: 70px;
+        color: #F5F5F5;
+    }
+    .extra:hover {
+        text-shadow: 2px 2px #182125;
+    
+    }
+    
+    .myPic img:hover {
+        border-radius: 25px;
+        border: 3px solid #182125;
+    }
+    
+    .email p a {
+        text-decoration: none;
+        color: #F5F5F5;
+        font-size: 24px;
+    
+    }
+    
+    
+    footer{
+        text-align: center;
+        color: #F5F5F5;
+    }
+    .footerText:hover {
+        color: #E70D20;
+    }
+} 
+
+
+/* Khusus HP Galaxy A51/A71*/
+
+@media only screen and (max-width: 700px) {
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #002066;
+    }
+    
+    h1:hover {
+        color: #E70D20;
+    }
+    
+    .bagianAtas {
+        background-image: linear-gradient(to bottom, #002066, #182125);
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 650px;
+    }
+
+    .dropdownButton {
+        color: #002066;
+        background-color: #F5F5F5 ;
+        font-size: 16px;
+        padding: 20px;
+        border-radius: 15px;
+        font-family: 'Poppins', sans-serif;
+    
+    
+    }
+    
+    .dropdown{
+        position: relative;
+        display: inline-block;
+        font-size: 24px;
+    }
+    
+    .dropdownContent {
+        display: none;
+        position: absolute;
+        background-color: #E70D20;
+        text-align: center;
+    
+    }
+    .dropdownContent a {
+        color: white;
+        padding: 5px 10px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdownContent a:hover {
+        color: #002066 ;
+    }
+    .dropdown:hover .dropdownContent{
+        display: block;
+    }
+
+    .title{
+        text-align: center;
+        color: #F5F5F5;
+        font-family: 'Poppins', sans-serif;
+        font-size: 60px;
+        text-shadow: 3px 3px #E70D20;
+    }
+
+    nav{
+        text-align: center;
+        padding: 25px;
+        margin: 0px auto;
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutMenu{
+        display: inline;
+        margin-right: 16px;
+        padding: 25px;
+        margin-bottom: 10px;
+        font-family: 'Poppins', sans-serif;
+        text-decoration: none;
+        color: #F5F5F5;
+    }
+
+    /*  Content Homepage */
+    .content {
+    background-color: #182125;
+    padding: 30px;
+    min-width: 650px;
+    
+}
+
+.contentHomePage {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #F5F5F5;
+    font-size: 36px;
+    margin: auto;
+}
+.imageContent img {
+    flex-grow: 1;
+    width: 348px !important;
+    margin-left: 120px;
+    border-radius: 25px;
+}
+.captionHomePage {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+}
+.captionHomePage p:hover{
+    color: #E70D20;
+}
+.contentHomePage img {
+    flex-grow: 1;
+}
+
+.whyButton {
+    padding: 25px;
+    font-size: 16px;
+    color: #F5F5F5;
+    background-color: #182125;
+    border-radius: 25px;
+    margin: auto;
+    border: 5px solid #F5F5F5;
+    margin-left: 120px;
+
+}
+
+.whyButton:hover {
+    border: 5px solid #E70D20;
+    color: #E70D20;
+    zoom: 105%;
+
+}
+
+img {
+    border-radius: 25px;
+}
+img:hover {
+    border-radius: 25px;
+    border: 3px solid #F5F5F5;
+    zoom: 110%;
+
+}
+/* Diecast */
+.diecast {
+    padding-left: 150px;
+    padding-top: 50px;
+    background-color: #182125;
+    color: #F5F5F5;
+    width: 600px;
+}
+
+.diecastTitle {
+    font-size: 16px;
+    padding-left: 120px;
+
+}
+
+.fotoDiecast {
+    display: flex;
+    flex-direction: column;
+}
+.fotoDiecast img {
+    flex-grow: 1;
+    margin-bottom: 30px;
+    
+}
+
+/* Landscape */
+.landscape {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: 120px;
+    color: #F5F5F5;
+    width: 600px;
+
+}
+.landscape img:hover {
+    border-radius: 25px;
+    border: 3px solid #182125;
+}
+
+.landscapeTitle {
+    padding: 25px;
+    margin-left: 100px;
+    color: #F5F5F5;
+    font-size: 16px;
+}
+
+.fotoLandscape {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    margin-left: 30px;
+}
+
+.fotoAtasLandscape img {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    width: 348px;
+}
+
+.fotoBawahLandscape .dua {
+    margin-bottom: 30px;
+    flex-grow: 1;
+    
+}
+.fotoBawahLandscape .satu{
+    margin-bottom: 30px;
+    flex-grow: 1;
+    
+}
+
+/*  Macro */
+.macro {
+    padding: 120px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #182125;
+    color: #F5F5F5;
+    width: 600px;
+}
+
+.macroTitle {
+    padding-left: 140px;
+    font-size: 16px;
+}
+.fotoMacro {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.kolom1 .barisMacro1 {
+    flex-grow: 1;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.kolom2 .barisMacro2 {
+    flex-grow: 1;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.kolom3 .barisMacro3 {
+    flex-grow: 1;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+/* aside */
+.about {
+    padding-top: 10px;
+    margin-left: 200px;
+    color: #F5F5F5;
+    text-align: center;
+    font-size: 24px;
+}
+.aboutContent {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    margin-left: 100px;
+    
+}
+
+.myPic img {
+    flex-grow: 1;
+    max-height: 200px;
+    margin-left: 100px;
+}
+.extra {
+    flex-grow: 1;
+    padding-left: 50px;
+    font-size: 48px;
+    margin-right: 200px;
+    line-height: 70px;
+    color: #F5F5F5;
+}
+.extra:hover {
+    text-shadow: 2px 2px #182125;
+
+}
+
+.myPic img:hover {
+    border-radius: 25px;
+    border: 3px solid #182125;
+}
+
+.email p a {
+    text-decoration: none;
+    color: #F5F5F5;
+    font-size: 24px;
+
+}
+
+footer{
+    text-align: center;
+    color: #F5F5F5;
+    margin-left: 200px;
+}
+.footerText:hover {
+    color: #E70D20;
+}
+
+}
+
+
